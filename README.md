@@ -1,2 +1,2 @@
 # EDA
-data visualization for delta analytic project
+EDA for delta analytics project
