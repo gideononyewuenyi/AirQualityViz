@@ -23,6 +23,7 @@ n_months  = None
 
 # Select just the rows and single column to plot
 data = df.iloc[37101:37150]
+data = (x="Date/Time", y= 'PM2.5_ATM_ug/m3', figsize=(20,4))
 
 # TODO: Create a line chart of the data
 st.line_chart(data)
