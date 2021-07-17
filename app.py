@@ -18,7 +18,7 @@ url = "https://raw.githubusercontent.com/gideononyewuenyi/Exploratory-analysis/m
 df = pd.read_csv(url)
 
 # TODO: Create sliders for start index and number of months
-temperature = st.slider('Temperature_F',  min_value=37101, max_value=df.shape[37150], step=1)
+temperature = st.slider('Temperature_F',  min_value=0, max_value=df.shape[37150], step=1)
 humidity = st.slider('Humidity_%',  min_value=0,  max_value=df.shape[0], step=1)
 pm = st.slider('PM2.5_ATM_ug/m3',  min_value=2,  max_value=df.shape[0], step=1)
 
