@@ -26,4 +26,4 @@ data = df.iloc[37101:37150]
 data = data[['Temperature_F', 'Humidity_%', 'PM2.5_ATM_ug/m3']]
 
 # TODO: Create a line chart of the data
-st.line_chart(data, figsize=(14,8))
+st.line_chart(data)
