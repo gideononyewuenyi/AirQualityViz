@@ -22,7 +22,7 @@ start_index = None
 n_months  = None
 
 # Select just the rows and single column to plot
-# data = df.iloc[start_index:start_index+n_months, 2]]
+data = df.iloc["Date/Time", = 'PM2.5_ATM_ug/m3']]
 
 # TODO: Create a line chart of the data
-st.line_chart(df)
+st.line_chart(data)
