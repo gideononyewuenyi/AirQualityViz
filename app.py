@@ -20,6 +20,7 @@ df = pd.read_csv(url)
 # TODO: Create sliders for start index and number of months
 start_index = None 
 n_months  = None
+st.slider('Trend',  min_value=0.001, max_value=0.10, step=0.01)
 
 # Select just the rows and single column to plot
 data = df.iloc[37101:37150]
