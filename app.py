@@ -25,4 +25,4 @@ n_months  = None
 # data = df.iloc[start_index:start_index+n_months, 2]]
 
 # TODO: Create a line chart of the data
-© 2021 GitHub, Inc.
+
