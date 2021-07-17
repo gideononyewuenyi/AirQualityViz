@@ -18,10 +18,9 @@ url = "https://raw.githubusercontent.com/gideononyewuenyi/Exploratory-analysis/m
 df = pd.read_csv(url)
 
 # TODO: Create sliders for start index and number of months
-start_index = None 
-n_months  = None
-start_index = st.slider('Start index',  min_value=0, max_value=df.shape[0], step=1)
-n_months  = st.slider('Number of months',  min_value=2,  max_value=df.shape[0]-start_index, step=1)
+temperature = st.slider('Temperature',  min_value=0, max_value=df.shape[0], step=1)
+humidity = st.slider('Humidity',  min_value=2,  max_value=df.shape[0]-start_index, step=1)
+PM = st.slider('PM 2.5',  min_value=2,  max_value=df.shape[0]-start_index, step=1)
 
 # Select just the rows and single column to plot
 data = df.iloc[37101:37150]
