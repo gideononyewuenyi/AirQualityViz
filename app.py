@@ -23,6 +23,11 @@ n_months  = None
 
 # Select just the rows and single column to plot
 # data = df.iloc[start_index:start_index+n_months, 2]]
+june1_21.plot(x="Date/Time", y= 'PM2.5_ATM_ug/m3', figsize=(20,4))
+plt.axhline(35.4, color ="red")
+plt.title("PM2.5 measurement in Lagos\non 2021-06-01", size=15)
+plt.xlabel('TIME', size=12)
+plt.ylabel('PM2.5', size=12)
 
 # TODO: Create a line chart of the data
 
