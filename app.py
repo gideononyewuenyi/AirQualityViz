@@ -22,7 +22,7 @@ start_index = None
 n_months  = None
 
 # Select just the rows and single column to plot
-data = df.iloc[start_index:start_index+n_months, 2]]
+# data = df.iloc[start_index:start_index+n_months, 2]]
 
 # TODO: Create a line chart of the data
 © 2021 GitHub, Inc.
