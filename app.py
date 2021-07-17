@@ -1,6 +1,5 @@
 """
-Plot airline passengers over time.
-Complete each TODO to create a working streamlit app.
+Plot air quality over time.
 """
 
 import streamlit as st
