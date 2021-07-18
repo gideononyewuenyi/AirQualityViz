@@ -10,7 +10,7 @@ import pandas as pd
 st.title("Air quality viz")
 
 # TODO: Add a short text description what the web app does
-st.subheader("Chart showing PM2.5, Temperature and Humidity for june 1st, 2021 in Lagos, Nigeria")
+st.subheader("Chart showing PM2.5, Temp & Humidity for june 1st, 2021 in Lagos, Nigeria")
 
 # Load data is done for you
 url = "https://raw.githubusercontent.com/gideononyewuenyi/Exploratory-analysis/main/Lekki%20Phase%201%20(outside)%20(6.451397%203.471201)%20Primary%2030_minute_average%2012_17_2019%206_6_2021.csv"
