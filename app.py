@@ -23,15 +23,17 @@ df = pd.read_csv(url)
 data = df.iloc[37101:37150]
 #data = data[['PM2.5_ATM_ug/m3']]
 
-import streamlit as st
-import pandas as pd
-
 df = pd.DataFrame(
   'Date/Time',
   'PM2.5_ATM_ug/m3'
 )
 
-df = df.rename(columns={'Date/Time':'index'}).set_index('index')
+
+df = df.set_index('Date/Time')
+
+df
+
+st.line_chart(df)
 
 df
 
