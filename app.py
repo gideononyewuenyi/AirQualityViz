@@ -26,10 +26,10 @@ data = df.iloc[37101:37150]
 import streamlit as st
 import pandas as pd
 
-df = pd.DataFrame({
+df = pd.DataFrame(
   'Date/Time',
   'PM2.5_ATM_ug/m3'
-})
+)
 
 df = df.rename(columns={'Date/Time':'index'}).set_index('index')
 
