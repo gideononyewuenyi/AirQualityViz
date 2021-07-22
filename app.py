@@ -34,4 +34,4 @@ df = df.set_index('Date/Time')
 #st.line_chart(df)
 
 # TODO: Create a line chart of the data
-st.line_chart(data)
+st.line_chart(df)
