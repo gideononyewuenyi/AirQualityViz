@@ -23,15 +23,15 @@ df = pd.read_csv(url)
 data = df.iloc[37101:37150]
 #data = data[['PM2.5_ATM_ug/m3']]
 
-df = pd.DataFrame(
-  'Date/Time',
-  'PM2.5_ATM_ug/m3'
-)
+#df = pd.DataFrame(
+ #'Date/Time',
+  #'PM2.5_ATM_ug/m3'
+#)
 
 
-df = df.set_index('Date/Time')
+#df = df.set_index('Date/Time')
 
 #st.line_chart(df)
 
 # TODO: Create a line chart of the data
-st.line_chart(df)
+st.line_chart(data)
