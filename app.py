@@ -14,8 +14,8 @@ st.subheader("Chart showing PM2.5 for june 1st, 2021 in Lagos, Nigeria")
 
 # Load data is done for you
 url = "https://raw.githubusercontent.com/gideononyewuenyi/Exploratory-analysis/main/Lekki%20Phase%201%20(outside)%20(6.451397%203.471201)%20Primary%2030_minute_average%2012_17_2019%206_6_2021.csv"
-df = pd.read_csv(url)
-
+#df = pd.read_csv(url)
+df = pd.read_csv(url, index_col=0, parse_dates=True)
 # TODO: Create sliders for start index and number of months
 
 
@@ -23,15 +23,15 @@ df = pd.read_csv(url)
 data = df.iloc[37101:37150]
 #data = data[['PM2.5_ATM_ug/m3']]
 
+
+st.line_chart(df[[‘Date/Time’, ‘PM2.5_ATM_ug/m3’]])
+
 #df = pd.DataFrame(
  #'Date/Time',
   #'PM2.5_ATM_ug/m3'
 #)
-
-
 #df = df.set_index('Date/Time')
-
 #st.line_chart(df)
 
 # TODO: Create a line chart of the data
-st.line_chart(data)
+#st.line_chart(data)
