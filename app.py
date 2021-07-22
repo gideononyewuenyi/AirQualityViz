@@ -31,13 +31,7 @@ df = pd.DataFrame(
 
 df = df.set_index('Date/Time')
 
-df
-
-st.line_chart(df)
-
-df
-
-st.line_chart(df)
+#st.line_chart(df)
 
 # TODO: Create a line chart of the data
 st.line_chart(data)
