@@ -24,4 +24,4 @@ data = data[['PM2.5_ATM_ug/m3', 'Temperature_F', 'Humidity_%']]
 
 
 # TODO: Create a line chart of the data
-st.line_chart(data, x='Date/Time')
+st.line_chart(data)
