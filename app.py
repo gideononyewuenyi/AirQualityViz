@@ -19,7 +19,7 @@ df = pd.read_csv(url)
 
 
 # Select just the rows and single column to plot
-df = df.rename(columns={'Date/Time':'index'}).set_index('index')
+df = df.rename(columns={'Date/Time'}).set_index('index')
 data = df.iloc[37101:37150]
 data = data[['PM2.5_ATM_ug/m3', 'Temperature_F', 'Humidity_%']]
 
