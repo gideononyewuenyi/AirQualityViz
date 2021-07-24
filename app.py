@@ -20,7 +20,7 @@ df = pd.read_csv(url)
 
 # Select just the rows and single column to plot
 data = df.iloc[37101:37150]
-data = data[['PM2.5_ATM_ug/m3', 'Temperature_F', 'Humidity_%']]
+data = data[[x = 'Date/Time', y = 'PM2.5_ATM_ug/m3', 'Temperature_F', 'Humidity_%']]
 
 
 # TODO: Create a line chart of the data
