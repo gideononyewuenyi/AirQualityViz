@@ -4,7 +4,6 @@ Plot air quality over time.
 
 import streamlit as st
 import pandas as pd
-import matplotlib.pyplot as plt
 
 
 # TODO: Add a title for the web app
