@@ -1,3 +1,3 @@
-# EDA for delta analytics project
+# Exploratory Data Analysis
 
 Data Visualization for air quality project
